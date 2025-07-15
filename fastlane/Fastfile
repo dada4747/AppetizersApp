@@ -18,6 +18,8 @@ default_platform(:ios)
 platform :ios do
   desc "🏗 Build for simulator without signing or archiving"
   lane :build do
-    sh "xcodebuild clean build -scheme Appetizers -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15'"
+    Dir.chdir("..") do  # 👈 This moves out of /fastlane into root
+      sh "xcodebuild clean build -scheme Appetizers -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15'"
+    end
   end
 end
