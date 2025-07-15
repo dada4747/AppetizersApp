@@ -33,6 +33,7 @@
 		B754059B2E23CCF70069277D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754059A2E23CCF70069277D /* User.swift */; };
 		B754059D2E23E0F00069277D /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754059C2E23E0F00069277D /* EmptyState.swift */; };
 		B75405A02E2429D50069277D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B754059F2E2429D50069277D /* Order.swift */; };
+		B7A2A9352E26540F003FFD20 /* SecureStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A2A9342E26540F003FFD20 /* SecureStoreProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		B754059A2E23CCF70069277D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B754059C2E23E0F00069277D /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		B754059F2E2429D50069277D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B7A2A9342E26540F003FFD20 /* SecureStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				B754055E2E229B4E0069277D /* Preview Content */,
 				B75405672E229B4E0069277D /* Assets.xcassets */,
+				B7A2A9342E26540F003FFD20 /* SecureStoreProtocol.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				B75405972E23C2150069277D /* AccountViewModel.swift in Sources */,
 				B75405992E23C3260069277D /* String+Ext.swift in Sources */,
 				B7452D8B2E24CA42000E8D65 /* CustomeModifiers.swift in Sources */,
+				B7A2A9352E26540F003FFD20 /* SecureStoreProtocol.swift in Sources */,
 				B754057E2E229B4E0069277D /* RemoteImage.swift in Sources */,
 				B75405A02E2429D50069277D /* Order.swift in Sources */,
 				B754059B2E23CCF70069277D /* User.swift in Sources */,
